@@ -1,0 +1,8 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main(){
+int a=10,b=3;
+float result;
+printf(" %d\n,a,b, result");
+    return 0;
+}
