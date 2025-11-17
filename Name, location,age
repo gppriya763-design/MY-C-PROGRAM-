@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    printf("Name Priya");
+    printf ("age 18");
+    printf ("location koratagere");
+
+    return 0;
+}
