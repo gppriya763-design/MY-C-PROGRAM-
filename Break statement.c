@@ -6,7 +6,7 @@ int main()
     if (i==5){
         break;
     }
-    printf ("%d\n,i");
+    printf ("%d\n",i);
     }
     return 0;
 }
