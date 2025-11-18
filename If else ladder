@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {int marks;
+    
+    printf("enter the marks");
+    scanf("%d",&marks);
+    if(marks>40)
+    printf ("fail");
+    else if(marks<60)
+    printf ("second class ");
+    else if(marks<90)
+    printf ("distinction");
+    else
+    printf ("out standing");
+    return 0;
+}
