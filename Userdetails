@@ -1,0 +1,15 @@
+#include <stdio.h>
+int userdetails(){
+    char name,dept;
+    int age;
+    printf ("my name is Priya\n");
+    printf ("my age is 18\n");
+    printf ("my dept is CSE\n");
+    
+    
+}
+int main() {
+    userdetails ();
+    
+}
+   
