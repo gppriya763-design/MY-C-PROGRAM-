@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+int rows_joy[5] = {1,2,3,4,5};
+printf ("%d",rows_joy[1]);
+
+
+    return 0;
+}
