@@ -1,0 +1,32 @@
+int main() {
+    int a, b, choice;
+   printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+    printf("\nChoose an operation:\n");
+    printf("1. Addition\n");
+    printf("2. Subtraction\n");
+    printf("3. Multiplication\n");
+    printf("4. Division\n");
+    printf("Enter your choice: ");
+    scanf("%d", &choice);
+   if (choice == 1) 
+       { printf("Result = %d", a + b);
+    }
+    else if (choice == 2)
+      {  printf("Result = %d", a - b);
+    }
+    else if (choice == 3) {
+        printf("Result = %d", a * b);
+    }
+    else if (choice == 4) {
+        if (b != 0)
+            printf("Result = %d", a / b);
+        else
+            printf("Division not possible (cannot divide by zero).");
+    }
+    else {
+        printf("Invalid choice!");
+    }
+
+}
+ 
