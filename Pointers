@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    int x=10;
+    int *p;
+    p=&x;
+    printf ("value of x=%d\n",x);
+    printf ("addressof x=%p\n",&x);
+    printf ("pointer of p stores x=%p\n",p);
+    printf ("value of pointer= %d\n",*p);
+    
+
