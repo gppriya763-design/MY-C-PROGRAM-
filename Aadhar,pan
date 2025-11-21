@@ -1,0 +1,34 @@
+#include <stdio.h>
+int main() {
+    int inputID;
+    int PAN = 1111;
+    int AADHAR = 2222;
+    int APAAR = 3333;
+    int DRIVING_LICENSE = 4444;
+    int PASSPORT = 5555;
+    printf("Enter your Unique Identification Number: ");
+    scanf("%d", &inputID);
+    if (inputID == PAN) {
+        printf("Verification Status: PAN Number Verified.\n");
+    }
+    else if (inputID == AADHAR) {
+        printf("Verification Status: AADHAR Number Verified.\n");
+    }
+    else if (inputID == APAAR) {
+        printf("Verification Status: APAAR ID Verified.\n");
+    }
+    else if (inputID == DRIVING_LICENSE) {
+        printf("Verification Status: Driving License Verified.\n");
+    }
+    else if (inputID == PASSPORT) {
+        printf("Verification Status: Passport Verified.\n");
+    }
+    else {
+        printf("Verification Status: NOT VERIFIED. ID not found.\n");
+    }
+
+    return 0;
+}
+    
+
+
