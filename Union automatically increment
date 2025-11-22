@@ -1,0 +1,14 @@
+#include <stdio.h>
+union Counter {
+    int count;
+    float temp;
+};
+int main() {
+    union Counter c;
+    c.count = 1;   // Starting value
+    printf("Count = %d\n", c.count);
+    c.count++;     
+    printf("Count = %d\n", c.count);
+    c.count++;     
+    printf("Count = %d\n", c.count);
+}
