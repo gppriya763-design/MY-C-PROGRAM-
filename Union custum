@@ -1,0 +1,13 @@
+#include <stdio.h>
+union Value {
+    int number;
+    char letter;
+};
+int main() {
+    union Value v;
+    v.number = 25;
+    printf("Number = %d\n", v.number);
+    v.letter = 'X';    
+    printf("Letter = %c\n", v.letter);
+    return 0;
+}
